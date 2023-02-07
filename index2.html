@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eczamen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="firstHead">
+            <h1>LIBRARY</h1>
+        </div>
+        <div id="secondHead">
+            <div id="sh1">
+                <h2>Books</h2>
+            </div>
+            <div id="sh2">
+                <a href="http://127.0.0.1:5500/index.html">Visitors</a>
+            </div>
+            <div id="sh3">
+                <a href="http://127.0.0.1:5500/index2.html">Cards</a>
+            </div>
+            <div id="sh4">
+                <h2>Statistics</h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="topMain">
+            <h2>ALL CARDS</h2>
+            <button id="newVis">New card</button>
+        </div>
+        <div id="centerMain">
+            <div id="left">
+                <p>Sort by:</p>
+                <input name="input" list="li" />
+                <datalist id="li">
+                    <option value="ID"></option>
+                    <option value="Visitor"></option>
+                    <option value="Book"></option>
+                    <option value="Borrow Date"></option>
+                    <option value="Return Date"></option>
+                </datalist>
+                <button>Sort</button>
+            </div>
+            <div id="right">
+                <p>Search:</p>
+                <input type="search" name="search" id="search">
+                <button>Search</button>
+            </div>
+        </div>
+        <div id="footMain">
+            <table id="table" class="iksweb">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Visitor</th>
+                        <th>Book</th>
+                        <th>Borrow Date</th>
+                        <th>Return Date</th>
+                    </tr>
+                </thead>
+                <tbody id="body"></tbody>
+            </table>
+        </div>
+    </main>
+
+
+
+    <div id="newWindow">
+        <div id="ones">
+            <button id="quit">X</button>
+        </div>
+        <div id="plop">
+            <div id="two">
+                <h3>Edit card:</h3>
+            </div>
+            <div id="three">
+                <h4>Visitor:</h4>
+                <input type="text" name="name" id="name">
+            </div>
+            <div id="four">
+                <h4>Book:</h4>
+                <input type="text" name="number" id="number">
+            </div>
+            <div id="five">
+                <button id="save">Save</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/script2.js"></script>
+</body>
+
+</html>

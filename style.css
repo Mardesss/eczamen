@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 1200px;
+    background-color: rgb(216, 215, 215);
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 145px;
+}
+
+#firstHead h1 {
+    color: rgb(32, 153, 153);
+}
+
+#firstHead {
+    padding: 20px 30px 30px;
+}
+
+#secondHead {
+    background-color: rgb(58, 58, 58);
+    color: rgb(194, 194, 194);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#sh1,
+#sh2,
+#sh3 {
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#sh1:hover,
+#sh2:hover,
+#sh3:hover {
+    color: rgb(24, 24, 24);
+    background: #757575 linear-gradient(#757575, #757575);
+}
+
+#sh1:active,
+#sh2:active,
+#sh3:active {
+    background: rgb(238, 238, 238) linear-gradient(rgb(238, 238, 238), rgb(224, 224, 224));
+}
+
+#sh1 {
+    margin-left: 30px;
+}
+
+#sh1,
+#sh3 {
+    border-left: 2px solid rgb(136, 136, 136);
+    border-right: 2px solid rgb(136, 136, 136);
+}
+
+#sh4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+}
+
+a {
+    color:rgb(194, 194, 194);
+    text-decoration: none;
+    width: 100%;
+    height: 150%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+main {
+    margin: 30px;
+}
+
+#topMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+
+#topMain h2 {
+    color: rgb(32, 153, 153);
+}
+
+#topMain button {
+    background-color: rgb(189, 188, 188);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#centerMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    font-size: 1.2em;
+}
+
+#left,
+#right {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+#left button,
+#right button {
+    background-color: rgb(189, 188, 188);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.iksweb {
+    width: 100%;
+    border-collapse: collapse;
+    background: #e9e8ea;
+}
+
+.iksweb,
+.iksweb td,
+.iksweb th {
+    border: 1px solid #595959;
+    padding: 10px;
+}
+
+.iksweb td,
+.iksweb th {
+    padding: 3px;
+    width: 30px;
+    height: 35px;
+}
+
+
+#zag td {
+    font-weight: 600;
+}
+
+#footMain {
+    margin-top: 30px;
+}
+
+div#newWindow {
+    position: fixed;
+    top: 350px;
+    right: 500px;
+    background-color: rgb(189, 188, 188);
+    width: 40%;
+    padding: 20px;
+    border: 2px solid #302b2b;
+    border-radius: 5px;
+    display: none;
+}
+
+div#ones {
+    position: relative;
+}
+
+#plop {
+    margin: 20px;
+}
+
+#three {
+    margin-bottom: 10px;
+}
+
+#three #name,
+#four #number,
+#five button {
+    width: 100%;
+    height: 25px;
+}
+
+#five button {
+    margin-top: 15px;
+}
+
+#quit {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+#newVis {
+    cursor: pointer;
+}
